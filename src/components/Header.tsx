@@ -47,7 +47,7 @@ const Header = () => {
               alt="ReaL EstatE WorlD Logo" 
               className="h-10 w-10"
             />
-            <div className="font-bold text-xl text-primary">
+            <div className="font-bold text-xl text-yellow-600">
               ReaL EstatE WorlD
             </div>
           </div>
