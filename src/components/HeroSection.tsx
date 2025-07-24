@@ -91,7 +91,17 @@ const HeroSection = () => {
               alt="ReaL EstatE WorlD - Professional Real Estate Service" 
               className="w-full h-auto opacity-90"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-professional/60 to-transparent"></div>
+            
+            {/* Text Overlay */}
+            <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8">
+              <h3 className="text-2xl md:text-4xl font-bold text-yellow-500 mb-4 drop-shadow-lg">
+                ReaL EstatE WorlD trivandrum
+              </h3>
+              <p className="text-lg md:text-xl text-white font-semibold drop-shadow-md">
+                Trusted Real estate partner
+              </p>
+            </div>
           </div>
           
           {/* Floating Elements */}
