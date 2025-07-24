@@ -6,42 +6,42 @@ const KeralaTouristSection = () => {
       id: 1,
       name: "Padmanabhaswamy Temple",
       location: "Thiruvananthapuram",
-      image: "https://images.unsplash.com/photo-1473177104440-ffee2f376098?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/15155af6-d499-4c51-bcb6-8ca48e84b571.png",
       description: "Ancient temple dedicated to Lord Vishnu, known for its Dravidian architecture"
     },
     {
       id: 2,
       name: "Thiruvananthapuram City",
       location: "Capital of Kerala",
-      image: "https://images.unsplash.com/photo-1494891848038-7bd202a2afeb?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/c8307ffa-4562-4c63-8e2e-164381572aee.png",
       description: "The capital city with rich heritage and modern amenities"
     },
     {
       id: 3,
       name: "Kerala Backwaters",
       location: "Alleppey & Kumarakom",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/7c5514e6-436b-4ecf-8560-e3feb9b27e8b.png",
       description: "Serene waterways surrounded by lush greenery and traditional houseboats"
     },
     {
       id: 4,
       name: "Hill Stations",
       location: "Munnar & Wayanad",
-      image: "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/6224347b-47e4-4da3-a0f6-2ad50a421221.png",
       description: "Picturesque hill stations with tea plantations and cool climate"
     },
     {
       id: 5,
-      name: "Kochi City",
+      name: "Cochin City",
       location: "Commercial Capital",
-      image: "https://images.unsplash.com/photo-1551038247-3d9af20df552?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/6b6363e3-7a9c-4b84-9b20-d55910e7f088.png",
       description: "Historic port city blending colonial charm with modern infrastructure"
     },
     {
       id: 6,
       name: "Kerala Beaches",
       location: "Kovalam & Varkala",
-      image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      image: "/lovable-uploads/1ab96012-a7b3-4f31-b4fe-f81a6ed804d7.png",
       description: "Golden sandy beaches with coconut palms and azure waters"
     }
   ];

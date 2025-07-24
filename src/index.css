@@ -18,27 +18,27 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 25 25% 15%;
 
-    /* Orange/Golden brand colors from logo */
-    --primary: 35 85% 55%;
+    /* Maroon brand colors */
+    --primary: 0 65% 45%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 35 85% 75%;
-    --primary-dark: 35 85% 35%;
+    --primary-light: 0 65% 65%;
+    --primary-dark: 0 65% 25%;
 
-    --secondary: 35 25% 90%;
+    --secondary: 0 25% 90%;
     --secondary-foreground: 25 25% 15%;
 
-    --muted: 35 15% 95%;
+    --muted: 0 15% 95%;
     --muted-foreground: 25 15% 45%;
 
-    --accent: 35 65% 85%;
+    --accent: 0 65% 85%;
     --accent-foreground: 25 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 35 25% 88%;
-    --input: 35 25% 92%;
-    --ring: 35 85% 55%;
+    --border: 0 25% 88%;
+    --input: 0 25% 92%;
+    --ring: 0 65% 45%;
 
     /* Kerala green for accents */
     --kerala-green: 140 50% 45%;

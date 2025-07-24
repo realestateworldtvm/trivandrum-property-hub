@@ -21,7 +21,7 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight">
               Your Trusted
               <br />
-              <span className="text-primary-light">Real Estate</span>
+              <span className="text-yellow-600 font-bold">ReaL EstatE WorlD Trivandrum</span>
               <br />
               Partner in Kerala
             </h1>
@@ -87,9 +87,9 @@ const HeroSection = () => {
         <div className="relative animate-scale-in">
           <div className="relative rounded-2xl overflow-hidden shadow-elegant">
             <img 
-              src="/lovable-uploads/49b65f1f-2aa7-4392-93b6-7c9ddcc1d8ec.png" 
+              src="/lovable-uploads/338d52e3-d1ae-4dd1-9f74-7baa1c75efce.png" 
               alt="ReaL EstatE WorlD - Professional Real Estate Service" 
-              className="w-full h-auto"
+              className="w-full h-auto opacity-90"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
           </div>
