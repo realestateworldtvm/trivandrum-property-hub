@@ -104,6 +104,16 @@ const HeroSection = () => {
         </div>
       </div>
 
+      {/* Bottom Text */}
+      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 text-center animate-fade-in">
+        <h3 className="text-3xl md:text-5xl font-black text-yellow-500 mb-2 drop-shadow-2xl">
+          ReaL EstatE WorlD trivandrum
+        </h3>
+        <p className="text-xl md:text-2xl text-white font-bold drop-shadow-lg">
+          Trusted Real estate partner
+        </p>
+      </div>
+
       {/* Scroll Indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
