@@ -13,7 +13,7 @@ const Footer = () => {
                 alt="ReaL EstatE WorlD Logo" 
                 className="h-8 w-8"
               />
-              <h3 className="text-xl font-bold text-white">ReaL EstatE WorlD</h3>
+              <h3 className="text-xl font-bold text-yellow-500">ReaL EstatE WorlD</h3>
             </div>
             <p className="text-professional-light leading-relaxed">
               Your trusted real estate consultant in Thiruvananthapuram, Kerala. 
@@ -157,7 +157,7 @@ const Footer = () => {
         <div className="border-t border-professional-light/20 mt-12 pt-8 text-center">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-professional-light">
-              © 2024 ReaL EstatE WorlD. All rights reserved.
+              © 2024 <span className="text-yellow-500 font-semibold">ReaL EstatE WorlD</span>. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm text-professional-light">
               <span>Thiruvananthapuram, Kerala</span>

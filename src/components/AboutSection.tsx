@@ -42,10 +42,10 @@ const AboutSection = () => {
           <div className="space-y-8 animate-fade-in">
             <div className="space-y-4">
               <h2 className="text-4xl font-bold text-foreground">
-                About <span className="text-primary">ReaL EstatE WorlD</span>
+                About <span className="text-yellow-500 font-bold">ReaL EstatE WorlD</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed">
-                ReaL EstatE WorlD is a trusted real estate consultant based in Thiruvananthapuram, Kerala. 
+                <span className="text-yellow-500 font-semibold">ReaL EstatE WorlD</span> is a trusted real estate consultant based in Thiruvananthapuram, Kerala. 
                 We specialize in buying, selling, and renting houses, plots, flats, villas, and commercial 
                 properties across Kerala.
               </p>

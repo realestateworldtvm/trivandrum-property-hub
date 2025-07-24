@@ -104,7 +104,7 @@ const KeralaTouristSection = () => {
             </h3>
             <p className="text-muted-foreground">
               Whether you're looking for properties near temples, in bustling cities, 
-              or serene tourist destinations, ReaL EstatE WorlD helps you find 
+              or serene tourist destinations, <span className="text-yellow-500 font-semibold">ReaL EstatE WorlD</span> helps you find 
               the perfect location in God's Own Country.
             </p>
           </div>
