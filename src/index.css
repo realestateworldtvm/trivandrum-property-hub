@@ -18,27 +18,27 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 25 25% 15%;
 
-    /* Maroon brand colors */
-    --primary: 0 65% 45%;
+    /* Maroon brand colors matching uploaded swatch */
+    --primary: 0 75% 35%;
     --primary-foreground: 0 0% 100%;
-    --primary-light: 0 65% 65%;
-    --primary-dark: 0 65% 25%;
+    --primary-light: 0 75% 55%;
+    --primary-dark: 0 75% 20%;
 
-    --secondary: 0 25% 90%;
+    --secondary: 0 35% 90%;
     --secondary-foreground: 25 25% 15%;
 
-    --muted: 0 15% 95%;
+    --muted: 0 20% 95%;
     --muted-foreground: 25 15% 45%;
 
-    --accent: 0 65% 85%;
+    --accent: 0 55% 85%;
     --accent-foreground: 25 25% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 25% 88%;
-    --input: 0 25% 92%;
-    --ring: 0 65% 45%;
+    --border: 0 30% 88%;
+    --input: 0 30% 92%;
+    --ring: 0 75% 35%;
 
     /* Kerala green for accents */
     --kerala-green: 140 50% 45%;

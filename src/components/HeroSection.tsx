@@ -21,7 +21,7 @@ const HeroSection = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-primary-foreground leading-tight">
               Your Trusted
               <br />
-              <span className="text-yellow-600 font-bold">ReaL EstatE WorlD Trivandrum</span>
+              <span className="text-yellow-500 font-bold drop-shadow-lg">ReaL EstatE WorlD</span>
               <br />
               Partner in Kerala
             </h1>
