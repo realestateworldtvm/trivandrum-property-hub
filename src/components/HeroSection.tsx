@@ -92,16 +92,6 @@ const HeroSection = () => {
               className="w-full h-auto opacity-90"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-professional/60 to-transparent"></div>
-            
-            {/* Text Overlay */}
-            <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-8 bg-black/30 backdrop-blur-sm">
-              <h3 className="text-3xl md:text-5xl font-black text-yellow-500 mb-4 drop-shadow-2xl">
-                ReaL EstatE WorlD trivandrum
-              </h3>
-              <p className="text-xl md:text-2xl text-white font-bold drop-shadow-lg">
-                Trusted Real estate partner
-              </p>
-            </div>
           </div>
           
           {/* Floating Elements */}
