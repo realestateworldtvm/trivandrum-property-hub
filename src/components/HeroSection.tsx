@@ -56,8 +56,7 @@ const HeroSection = () => {
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
               <div className="flex items-center justify-center gap-2 mb-2">
-                <Award className="h-5 w-5 text-primary-foreground" />
-                <span className="text-2xl font-bold text-primary-foreground">37</span>
+                <Award className="h-8 w-8 text-primary-foreground" />
               </div>
               <p className="text-primary-foreground/80 text-sm">Google Reviews</p>
             </div>
