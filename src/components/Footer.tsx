@@ -163,10 +163,10 @@ const Footer = () => {
               <span>Thiruvananthapuram, Kerala</span>
               <span>•</span>
               <a 
-                href="https://realestateworldtvm.netlify.app" 
+                href="https://realestateworldkerala.com" 
                 className="hover:text-white transition-colors"
               >
-                realestateworldtvm.netlify.app
+                realestateworldkerala.com
               </a>
             </div>
           </div>
