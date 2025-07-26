@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { MapPin, BedDouble, Bath, Square, Phone, Mail } from "lucide-react";
+import { MapPin, BedDouble, Bath, Square, Phone, Mail, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
@@ -163,10 +163,19 @@ const PropertyListings = () => {
                       >
                         Contact for Details
                       </Button>
-                      <div className="flex justify-center gap-4 text-sm text-muted-foreground">
+                      <div className="flex justify-center gap-3 text-sm text-muted-foreground">
                         <a href="tel:9447258746" className="flex items-center gap-1 hover:text-primary">
                           <Phone className="h-3 w-3" />
-                          Call Now
+                          Call
+                        </a>
+                        <a 
+                          href="https://wa.me/919447258746?text=Hi, I'm interested in this property: " 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-1 hover:text-primary"
+                        >
+                          <MessageCircle className="h-3 w-3" />
+                          WhatsApp
                         </a>
                         <a href="mailto:mcmmurali2@gmail.com" className="flex items-center gap-1 hover:text-primary">
                           <Mail className="h-3 w-3" />
