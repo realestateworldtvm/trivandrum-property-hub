@@ -1,16 +1,34 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone, Mail, MapPin } from "lucide-react";
+import { useNavigate, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const scrollToSection = (sectionId: string) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
+    if (location.pathname !== '/') {
+      navigate('/');
+      setTimeout(() => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    } else {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
     }
+    setIsMenuOpen(false);
+  };
+
+  const handlePropertiesClick = () => {
+    navigate('/properties');
+    setIsMenuOpen(false);
   };
 
   return (
@@ -73,6 +91,12 @@ const Header = () => {
               Services
             </button>
             <button 
+              onClick={handlePropertiesClick} 
+              className="text-foreground hover:text-primary transition-colors"
+            >
+              Properties
+            </button>
+            <button 
               onClick={() => scrollToSection('reviews')} 
               className="text-foreground hover:text-primary transition-colors"
             >
@@ -124,6 +148,12 @@ const Header = () => {
                 className="text-left text-foreground hover:text-primary transition-colors py-2"
               >
                 Services
+              </button>
+              <button 
+                onClick={handlePropertiesClick} 
+                className="text-left text-foreground hover:text-primary transition-colors py-2"
+              >
+                Properties
               </button>
               <button 
                 onClick={() => scrollToSection('reviews')} 
