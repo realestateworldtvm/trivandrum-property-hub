@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import Admin from "./pages/Admin";
 import PropertyListings from "./pages/PropertyListings";
 import NotFound from "./pages/NotFound";
+import SEOTracker from "./components/SEOTracker";
 
 const queryClient = new QueryClient();
 
@@ -16,6 +17,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <SEOTracker />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/properties" element={<PropertyListings />} />

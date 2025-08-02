@@ -1,0 +1,6 @@
+Contact: mailto:realestateworldkerala@gmail.com
+Encryption: https://realestateworldkerala.com/pgp-key.txt
+Acknowledgments: https://realestateworldkerala.com/thanks
+Policy: https://realestateworldkerala.com/security-policy
+Hiring: https://realestateworldkerala.com/careers
+Canonical: https://realestateworldkerala.com/.well-known/security.txt

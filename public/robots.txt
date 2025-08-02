@@ -1,14 +1,51 @@
+# Enhanced robots.txt for SEO optimization
+
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
 
-User-agent: Twitterbot
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
 Allow: /
 
 User-agent: facebookexternalhit
 Allow: /
 
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Block access to admin and sensitive areas
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /src/
+Disallow: /node_modules/
+
+# Sitemap location
+Sitemap: https://realestateworldkerala.com/sitemap.xml
+
+# Crawl rate
+Crawl-delay: 2
